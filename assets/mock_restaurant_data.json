@@ -1,0 +1,172 @@
+[
+  {
+    "restaurant_id": "1",
+    "restaurant_name": "The Food Place",
+    "restaurant_image": "https://example.com/restaurant_image.jpg",
+    "table_id": "10",
+    "table_name": "Table 1",
+    "branch_name": "Main Branch",
+    "nexturl": "",
+    "table_menu_list": [
+      {
+        "menu_category": "Starters",
+        "menu_category_id": "1",
+        "menu_category_image": "https://example.com/menu_category_image.jpg",
+        "nexturl": "",
+        "category_dishes": [
+          {
+            "dish_id": "1000",
+            "dish_name": "Tomato Soup",
+            "dish_price": 5.99,
+            "dish_image": "https://example.com/dish_image.jpg",
+            "dish_currency": "INR",
+            "dish_calories": 250.0,
+            "dish_description": "A warm and comforting tomato soup.",
+            "dish_Availability": true,
+            "dish_Type": 1,
+            "nexturl": "",
+            "addonCat": [
+              {
+                "addon_category": "Extra toppings",
+                "addon_category_id": "10000",
+                "addon_selection": 1,
+                "nexturl": "",
+                "addons": [
+                  {
+                    "dish_id": "10001",
+                    "dish_name": "Croutons",
+                    "dish_price": 0.99,
+                    "dish_image": "https://example.com/addon_image.jpg",
+                    "dish_currency": "INR",
+                    "dish_calories": 100.0,
+                    "dish_description": "Crunchy croutons.",
+                    "dish_Availability": true,
+                    "dish_Type": 2,
+                    "nexturl": ""
+                  }
+                ]
+              }
+            ]
+          }   ,      {
+            "dish_id": "1500",
+            "dish_name": "Chicken lollipop",
+            "dish_price": 10.99,
+            "dish_image": "https://example.com/dish_image.jpg",
+            "dish_currency": "INR",
+            "dish_calories": 150.0,
+            "dish_description": "Juicy chicken lollipop.",
+            "dish_Availability": true,
+            "dish_Type": 1,
+            "nexturl": "",
+            "addonCat": [
+              {
+                "addon_category": "Extra toppings",
+                "addon_category_id": "10000",
+                "addon_selection": 1,
+                "nexturl": "",
+                "addons": [
+                  {
+                    "dish_id": "10001",
+                    "dish_name": "Croutons",
+                    "dish_price": 0.99,
+                    "dish_image": "https://example.com/addon_image.jpg",
+                    "dish_currency": "INR",
+                    "dish_calories": 100.0,
+                    "dish_description": "Crunchy croutons.",
+                    "dish_Availability": true,
+                    "dish_Type": 2,
+                    "nexturl": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "menu_category": "Main Course",
+        "menu_category_id": "2",
+        "menu_category_image": "https://example.com/main_course_image.jpg",
+        "nexturl": "",
+        "category_dishes": [
+          {
+            "dish_id": "2000",
+            "dish_name": "Grilled Chicken",
+            "dish_price": 10.99,
+            "dish_image": "https://example.com/grilled_chicken_image.jpg",
+            "dish_currency": "INR",
+            "dish_calories": 450.0,
+            "dish_description": "Perfectly grilled chicken with herbs.",
+            "dish_Availability": true,
+            "dish_Type": 1,
+            "nexturl": "",
+            "addonCat": [
+              {
+                "addon_category": "Sides",
+                "addon_category_id": "20000",
+                "addon_selection": 1,
+                "nexturl": "",
+                "addons": [
+                  {
+                    "dish_id": "20001",
+                    "dish_name": "French Fries",
+                    "dish_price": 2.99,
+                    "dish_image": "https://example.com/french_fries_image.jpg",
+                    "dish_currency": "INR",
+                    "dish_calories": 300.0,
+                    "dish_description": "Crispy golden french fries.",
+                    "dish_Availability": true,
+                    "dish_Type": 2,
+                    "nexturl": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "menu_category": "Pizza",
+        "menu_category_id": "3",
+        "menu_category_image": "https://example.com/pizza_image.jpg",
+        "nexturl": "",
+        "category_dishes": [
+          {
+            "dish_id": "3000",
+            "dish_name": "Margherita Pizza",
+            "dish_price": 12.99,
+            "dish_image": "https://example.com/margherita_pizza_image.jpg",
+            "dish_currency": "INR",
+            "dish_calories": 600.0,
+            "dish_description": "Classic margherita pizza with tomato and mozzarella.",
+            "dish_Availability": true,
+            "dish_Type": 1,
+            "nexturl": "",
+            "addonCat": [
+              {
+                "addon_category": "Extra toppings",
+                "addon_category_id": "30000",
+                "addon_selection": 1,
+                "nexturl": "",
+                "addons": [
+                  {
+                    "dish_id": "30001",
+                    "dish_name": "Olives",
+                    "dish_price": 1.99,
+                    "dish_image": "https://example.com/olives_image.jpg",
+                    "dish_currency": "INR",
+                    "dish_calories": 50.0,
+                    "dish_description": "Sliced black olives.",
+                    "dish_Availability": true,
+                    "dish_Type": 2,
+                    "nexturl": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
